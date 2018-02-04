@@ -1,0 +1,78 @@
+<html>
+<title>Sign Up Form</title>
+<h1 align="center">GMAIL SIGN UP FORM</h1>
+<body background="F:\download.png" height="600" width="600">
+<p>All the details entered by the user in this form won't be exposed <b>to any other website or person.</b>Your details are safe with us.User please make sure to <b>check your details</b> once before submitting the form.For any other query you can contact us with the details mentioned at the end of the page.Sending an email  is preferred.</p>
+<br/>
+<fieldset>
+	<legend align="center"><b>Personal Details</b></legend>
+	<label>First Name:<br/> 
+	<input type="text" name="First Name" /></label><br/>
+	<label>Last Name:<br/>
+	<input type="text" name="Last Name" /></label><br/>
+	<label>Phone number:<br/>
+	<input type="text" name="Phone number" /></label><br/>
+	<label>Age:<br/> 
+	<input type="text" name="Age" /></label><br/>
+	<label>Nationality:<br/> 
+	<input type="text" name="Nationality" /></label><br/>
+	<label>Gender:<br/> 
+	<select name="Gender">
+	<option value="Male">Male</option>
+	<option value="Female">Female</option>
+	<option value="Rather not say">Rather not say</option>
+	<option value="Other">Other</option><br/>
+	</select><br\>
+	
+</form>
+</fieldset>
+<form>
+<p>For what purpose are you creating this email:
+<br />
+<input type="radio" name="genre" value="Offiial"
+checked="checked" /> Official
+<input type="radio" name="genre" value="Personal" />
+Personal
+<input type="radio" name="genre" value="Government" />
+Government
+<input type="radio" name="genre" value="Others" />
+Others
+<fieldset>
+	<legend align="center"><b>Email Details</b></legend>
+	<label>User Name:<br/> 
+	<input type="text" name="User Name" /></label>
+	<b>@gmail.com</b><br/>
+	<label>Password:<br/>
+
+	<input type="password" onclick="myFunction()"></input>
+
+	<script>
+	function myFunction() {
+    alert("Please make sure that your password contains atleast one Upper case letter,one symbol and a number and has to be of minimum of 8 character length");
+	}
+	</script><br/>
+	<label>Confirm Password:<br/>
+	<input type="password" name="Confirm Password" /></label><br/>
+	<label>Date of Birth in dd-mm-yyyy:<br/> 
+	<input type="date" name="Date of birth" /></label><br/>
+</fieldset><br/>
+
+<button onclick="myFunction1()">Submit</button>
+
+<script>
+function myFunction1() {
+    alert("I accept that all details entered by me is correct.");
+}
+</script>
+
+
+<button onclick="myFunction2()">Already have an account</button>
+
+<script>
+function myFunction2() {
+    alert("You will be directed back to the LOGIN page.");
+}
+</script>
+</body>
+</form>
+</html>
