@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body background="https://wallpaperscraft.com/image/lines_dark_light_form_background_47106_2048x1152.jpg">
+<h1 style="color:white" style="font-family:georgia" align="center"> INFORMATION FORM</h2>
+<h2 style="color:white" style="font-size:100%" align="center"> Personal Details</h2>
+<form>
+<table border="5" align="center" width="50%">
+<tr>
+<td style="color:white">First name:</td>
+<td><input type="text" name="firstname"></td>
+</tr>
+<tr> 
+<td style="color:white">Last name:</td>
+<td><input type="text" name="lastname"></td>
+</tr>
+<tr>
+<td style="color:white">Gender:</td>
+<td style="color:white"><input type="radio" name="gender" value="Male">Male<br>
+<input type="radio" name="gender" value="Female">Female<br>
+<input type="radio" name="gender" value="Other">Other<br></td>
+</tr>
+<td style="color:white">Date of birth:</td>
+<td><input type="date" name="dateofbirth"></td>
+</tr>
+<tr>
+<td style="color:white">Email Id:</td>
+<td><input type="text" name="Email"></td>
+</tr>
+<tr>
+<td style="color:white">Mobile Number:</td>
+<td><input type="text" name="MobileNo."></td>
+</tr>
+</table>
+<h2 style="color:white" style="font-size:100%" align="center">Educational Details</h2>
+<table border="5" align="center" width="50%">
+<tr>
+<td style="color:white">College Name:</td>
+<td style="color:white" ><input list="college">
+<datalist id="college">
+<option value="-">
+<option value="Vellore Instituute of Technology,Vellore">
+<option value="Manipal Institute of Technology, Manipal">
+<option value="Indian Institute of Technology, Kharagpur">
+<option value="Christ University,Banglore">
+<option value="Other">
+</datalist><br><br>
+If Other:<br>
+<input type="text" name="OtherCollege">
+</td>
+</tr>
+<tr>
+<td style="color:white">Branch:</td>
+<td><input type="text" name="Branch"></td>
+</tr>
+<tr>
+<td style="color:white">Year:</td>
+<td style="color:white"><input type="radio" name="Year" Value="1">1st<br>
+<input type="radio" name="Year" Value="2">2nd<br>
+<input type="radio" name="Year" Value="3">3rd<br>
+<input type="radio" name="Year" Value="4">4th<br></td>
+</tr>
+</table>
+<br>
+<table align="center" width="50%">
+<tr>
+<td align="center" colspan="2"><input type="submit" value="Submit" onclick="alert('Submitted!')"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
