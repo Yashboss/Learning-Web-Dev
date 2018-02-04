@@ -1,0 +1,50 @@
+<html>
+<head>
+<title color="blue">form creation</title>
+<h1 style="color:mediumseagreen;text-align: center;background-color: yellow"> Welcome.Kindly fill the details
+</h1>
+</head>
+<body  style="background-color: transparent;">
+<figure>
+<img src="25914_VIT_New.jpg" alt="Photograph of VIT" width="100"
+height="200" align="right" />
+<br />
+</figure>
+<form action="http://www.example.com/subscribe.php"
+method="get">
+<fieldset>
+<legend align="center">DETAILS</legend>
+<p>Username:
+<input type="text" name="username" size="15"
+maxlength="30" />
+</p>
+<p>Password:
+<input type="password" name="password" size="15"
+maxlength="30" required="required" />
+</p>
+<p>How is your life at VIT?</p>
+<textarea name="comments" cols="20" rows="4"></textarea>
+<p>Choose your gender:
+<br />
+<input type="radio" name="gender" value="male"
+checked="checked" /> male
+<br />
+<input type="radio" name="gender" value="female" />
+female
+<br />
+<label for="username">Date of Birth:</label>
+<input type="date" name="date of birth" />
+<br />
+</p>
+<p>Event(s) which you like:
+<br />
+<input type="checkbox" name="Event"
+value="Gravitas" checked="checked" /> Gravitas
+<input type="checkbox" name="Event"
+value="Riviera" /> Riviera
+</p>
+<input type="submit" value="Submit" />
+</fieldset>
+</form>
+</body>
+</html>
