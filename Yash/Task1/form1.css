@@ -1,0 +1,24 @@
+#mid{
+    font-family:Haettenschweiler;
+    color:#a1f309;
+    background-color:rgb(73, 90, 185);
+}
+#top{
+    font-family:Monotype Corsiva;
+    color:rgb(15, 15, 126);
+    font-size:200%;
+    background-color:rgba(223, 217, 217, 0.904)
+}
+form{
+    margin-left:10%;
+}
+#line{
+    margin-right:10%;
+}
+.center{
+    margin-left:30%;
+}
+.submit{
+    margin-left:40%;
+}
+    
