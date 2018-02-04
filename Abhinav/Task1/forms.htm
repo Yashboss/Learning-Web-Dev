@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<title>Forms</title>
+<style>
+body{
+background-image:url("b2.jpg");
+border:4px solid green;
+font-family:"Cominc Sans MS",sans-serif;
+}
+fieldset{
+width:350px;
+line-height:1.8em;
+margin:10px auto 10px auto;
+}
+#details,#review{
+background-color:white;
+width:400px;
+padding:10px;
+margin:10px auto 20px auto;
+box-shadow: 2px 4px 8px 0 black, 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#details{
+background-color:#f44242;
+}
+#review{
+background-color:#d9f442;
+}
+#form{
+width:400px;
+border:2px solid blue;
+margin:auto auto auto auto !important;
+background-color:white;
+}
+#copy{
+text-align:right;
+margin:0px 10px 0px 0px;
+padding:2px;
+font-style:bold;
+font-size:70%;
+}
+h1{
+font-family:Tangerine,Serif;
+font-size:140px;
+width:600px;
+text-align:center;
+margin:5px auto 10px auto;
+padding:2px;
+text-shadow:2px 4px 8px 0 black;
+}
+input[type="submit"]{
+border:1px solid #006633;
+background-color:#009966;
+color:#ffffff;
+padding:5px;
+width:310px;
+text-align:center;
+letter-spacing:0.15em;
+font-size:14px;
+}
+input[type:"submit"]:hover{
+background-color:white;
+color:#ffffff;
+cursor:crosshair;
+}
+.title{
+float:left;
+width:160px;
+clear:left;
+}
+input[type="text"]{
+width:140px;
+border:1px solid #d6d6d6;
+padding:2px;
+outline:none;
+}
+input[type="email"]{
+width:140px;
+border:1px solid #d6d6d6;
+padding:2px;
+outline:none;
+}
+#submit{
+width:310px;
+margin:10px auto 10px auto;
+box-shadow: 2px 4px 8px 0 black, 4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+legend{
+text-transform:uppercase;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+<h1>Review Form</h1>
+<div id="details">
+<form action="http://www.example.com/review.php" method="get">
+<fieldset>
+<legend>Your Details</legend>
+<label for="name" class="title">Name:</label>
+<input type="text" name="name" id="name" size="30" maxlength="100" />
+<br />
+<label for="registration" class="title">Registration Number:</label>
+<input type="text" name="reg-number" id="registration" size="10" /><br />
+<label for="email" class="title">Email:</label>
+<input type="email" name="email" id="email" />
+</fieldset>
+</div>
+<div id="review">
+<fieldset>
+<legend>Your Review</legend>
+<label for="source" class="title">Source of Information:</label>
+<select name="source" id="source">
+<option value="google">Google</option>
+<option value="facebook">Facebook</option>
+<option value="firefox">Whatsapp</option>
+<option value="television">TV</option>
+</select><br />
+<span class="title">Visiting again?</span>
+<label>
+<input type="radio" name="visit" value="yes" />
+Yes
+</label>
+<label>
+<input type="radio" name="visit" value="no" />
+No
+</label>
+<label>
+<input type="radio" name="visit" value="maybe" />
+Maybe
+</label>
+<p class="title">
+Comments:</p>
+<textarea name="comments" rows="4" cols="20"></textarea>
+<label>
+<input type="checkbox" name="subscribe" checked="checked" />
+Sign me up for email updates
+</label>
+</fieldset>
+</div>
+<div id="submit"><input type="submit" value="Submit Review" /></div>
+<p id="copy">&copy;<abbr title="ABHINAV SRIVASTAVA">ZERO_2017</abbr></p>
+</body>
+</html>
