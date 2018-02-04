@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Reg. Form</title>
+        <link href="form1.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="top">
+        <h1 class="center"><b>Badka Institute of Technology</b></h1>
+        <h3>BTech Registration form:</h3><hr/>
+        <h6>Page 1:</h6>
+        <hr/>
+        </div>
+        <div id="mid">
+        <br/><br/>
+        <form action="#" method="post">
+            <p>Full Name: 
+            <input type="text" name="Name" size="30" maxlength="40" required/></p><br/>
+            <p> Father's Name:  <input type="text" name="F-name" size="30" maxlength="40" value="Mr." required/></p>
+            <p>Date Of Birth:
+            <input type="date" name="dob" required/></p><br/>
+            <p>
+                Gender:<input type="radio" name="gender" value="male" checked/>Male
+                <input type="radio" name="gender" value="female"/>female
+            </p><br/>
+            <fieldset id="line">
+                <legend>Contact Details</legend>
+                <label>Email: <input type="text" name="email" size="20"/></label><br/><br/>
+                <label>Mobile Number: <input type="text" name="MobileNumber" size="12" maxlength="10" required/></label>
+            </fieldset>
+            <p>Residential Address: <textarea name="address" rows="4" cols="20"></textarea>  Pin-code: <input type="text" name="pin-code"/></p>
+            <br/><br/>
+            <input class="submit" type="image" src="images/submit.png" width="200" height="50" >
+        </form>
+        <br/><br/>
+        </div>
+
+    </body>
+</html>
