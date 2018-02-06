@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>Dropdown bar</title>
+<style>
+body{
+    width: 100%; 
+    background-color:black;
+}
+    .top{
+        background: maroon;
+    }
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+
+.dropdown{
+    position:absolute; 
+    width: 90px;
+    top: 42px;
+    visibility:hidden;
+}
+.top li{
+    float: left;
+    padding: 5px;
+    background: maroon;
+}
+.top li a{ 
+    display: block;
+    padding: 2px 20px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 130%;
+}
+.top li:hover{
+    background: #fff;
+}
+.top li:hover a{
+    color: black;
+}
+.subs {
+    position:sticky;
+    top: 0px;
+    width: 150px;
+    border-left: none !important; 
+    border-bottom: 1px #fff !important;
+}
+.has-subs:hover .dropdown,.has-subs .has-subs:hover .dropdown{
+    opacity: .99;
+    visibility: visible;
+}
+.top li:hover ul a,.top li:hover ul li ul li a{
+    color: white;
+}
+.top li ul li:hover,.top li ul li ul li:hover{
+    background: #fff;
+}
+.top li ul li:hover a,.top li ul li ul li:hover a{
+    color: maroon;
+}
+.has-subs .has-subs .dropdown .subs{
+    position:relative;
+    width: 140px;
+}
+.has-subs .has-subs .dropdown{
+    position: absolute;
+    width: 140px;
+    left: 120px;
+    top: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="top">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li class="has-subs"><a href="">Dropdown-1</a>
+                            <ul class="dropdown">
+                            <li class="subs"><a href="#">Link 1</a></li>
+                            <li class="subs has-subs"><a href="#">Dropdown-2</a>
+                                                    <ul class="dropdown">
+                                                    <li class="subs"><a href="#">Link 4</a></li>
+                                                    <li class="subs"><a href="#">Link 5</a></li>
+                                                    <li class="subs"><a href="#">Link 6</a></li>
+                                                    </ul>
+                            </li>
+                            <li class="subs"><a href="#">Link 3</a></li>
+                            </ul>
+            </li>
+            <li><a href="#exit">Exit</a></li>
+        </ul>
+    </div>
+</body>
+</html>
