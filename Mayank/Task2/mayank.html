@@ -1,0 +1,92 @@
+<Doctype html>
+  <html>
+  <head>
+    <title>NavBar</title>
+</head>
+<body>
+  <style>
+  body{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+    color: white;
+  }
+  .nav{
+    background-color: #595959;
+    list-style: none;
+    text-align: right;
+    font-size: 20px;
+    padding: 30px 0 30px 0;
+  }
+  .nav>li{
+    display: inline-block;
+    padding: 10px;
+
+  }
+  .nav>li>a{
+    text-decoration: none;
+    color: white;
+  }
+  .nav>li>a:hover{
+    color:c1c1c1;
+  }
+  .logo{
+    float: left;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    }
+    .banner{
+      width:100%;
+      display: block;
+    }
+    .banner>.banner-image{
+      width:100%;
+      display: block;
+    }
+    ul.sub-menu{
+      position:absolute;
+      list-style-type: none;
+      list-style: none;
+      background-color: #595959;
+      padding-left: 0px;
+      margin-left: -70px;
+      padding-right: 40px;
+      padding-top: 20px;
+      opacity: 0;
+    }
+    ul.sub-menu>li>a:hover{
+      color:c1c1c1;
+    }
+    ul.sub-menu>li>a{
+      text-decoration: none;
+      color: white;
+    }
+    ul.sub-menu>li{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 25px;
+    }
+    .nav>li:hover ul.sub-menu{
+      opacity: 1;
+    }
+  </style>
+  <ul class="nav">
+    <div class="logo">
+      MyConnector
+    </div>
+    <li><a href="#">Amazon</a>
+    <ul class="sub-menu">
+      <li><a href="#">Watches</a></li>
+      <li><a href="#">Laptops</a></li>
+      <li><a href="#">Speakers</a></li>
+      <li><a href="#">Others</a></li>
+    </ul></li>
+    <li><a href="#">Flipkart</a></li>
+    <li><a href="#">TheSouledStore</a></li>
+    <li><a href="#">Myntra</a></li>
+    <li><a href="#">Others</a>
+    </ul>
+    <div class="banner">
+      <img class="banner-image" src="C:\Users\Mayank\Downloads\1.jpg">
+</html>
