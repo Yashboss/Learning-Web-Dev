@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body{
+    background-image: url("backg.jpg");
+    background-repeat:no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(128, 79, 79);
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:25px;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5023f1;
+    min-width: 160px;
+    box-shadow:0px 6px 8px 0px rgba(94, 9, 9, 0.2);
+    z-index: +1;
+}
+
+.dropdown-content a {
+    color: rgb(100, 40, 40);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li class="dropdown"><a href="javascript:void(0)" class="dropbtn menu"><i class="fa fa-bars"></i></a>
+        <div class="dropdown-content">
+          <a href="#">Women Apperals</a>
+          <a href="#">Men Apperals</a>
+          <a href="#">Accessories</a>
+          <a href="#">Night wear</a>
+        </div>
+    </li>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#offers">offers</a></li>
+  <li class="contact"><a href="#" class="Contact">Contact</a></li>
+</li>
+  <li class="dropdown" style="float:right"><a href="javascript:void(0)" class="dropbtn material-icon"><i class="material-icons">User</i></a>
+    <div class="dropdown-content">
+            <a href="#">Your Profile</a>
+            <a href="#">Your Order</a>
+            <a href="#">Wishlist</a>
+          </div>
+</li>
+</ul>
+</body>
+</html>
