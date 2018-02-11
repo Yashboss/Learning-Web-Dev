@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <title>
+      I need to do this2
+    </title>
+    <h1 align = "center"><font color = "white">Personal Details Form</font></h1>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+     }
+
+    li {
+    float: left;
+     }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     }
+
+    li a:hover {
+    background-color: red;
+      }
+    li.dropdown {
+          display: inline-block;
+      }
+
+    .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: black;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+
+    .dropdown-content a {
+          color: white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+      }
+
+    .dropdown-content a:hover {background-color:red}
+
+    .dropdown:hover .dropdown-content {
+          display: block;
+      }
+  </style>
+</head>
+  <body background = "back.jpg">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+     <li class="dropdown">
+      <a href="javascript:void(0)" class="services">Services</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+    </li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <h2 align = center>
+      <font color = "white">Please Fill Required Fields Carefully</font>
+    </h2>
+    <form>
+     <style>
+      div{color: white;}
+     </style> 
+      <fieldset>
+        <legend><font size = "5" color = "white"> Personal Details </font></legend>
+        <div>
+           First Name *:
+          <input type = "text" name = "fname" size = "25" required maxlength="50" />
+           Last Name *:
+          <input type = "text" name = "lname" size = "25"  required maxlength="50" />
+          <br><br><br>
+           Age *:
+          <input type = "number" name = "age" size = "25" min = "0" max = "100" required />
+           Gender:
+          <select>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+          </select>
+          <br><br><br>
+           Date of Birth *:
+          <input type = "date" name = "bday"/>
+           Verification of DOB *: 
+           <select>
+              <option value="BCertificate">Birth Certificate</option>
+              <option value="Aadhar">Aadhar Card</option>
+              <option value="Other">Other</option>
+          </select>
+          <br><br><br>
+          Email :
+          <input type = "email" name = "email" />
+          Mobile *:
+          <input type = "tel" name = "mobile" required />
+          <br><br><br>
+          <input type = "submit"/>
+          <input type = "reset"/>
+        </div>
+      </fieldset>
+      
+          
+        
+    </form>
+    <p>
+      <font color = "white">For help , Please don't contact me</font>
+    </p>
+  </body>
+</html>
