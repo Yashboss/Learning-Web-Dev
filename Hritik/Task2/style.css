@@ -1,0 +1,41 @@
+body{
+	font-family: 'Fjalla One', sans-serif;
+	background: #09a3f5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+ul{
+	font-size: 20px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li{
+	float :left;
+	width: 200px;
+	height:50px;
+	background-color: black;
+	line-height: 50px;
+	text-align: center;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul>li:hover{
+	background: #09f542;
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul>li:hover ul li{
+	display: block;
+}
