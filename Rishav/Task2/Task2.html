@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+p
+{
+font-size: 20px;}
+ul
+{
+list-style:none;
+margin:0;
+padding:0;
+background:black;
+}
+ul li
+{
+display: block;
+position: relative;
+float: left;
+background: black;
+}
+li ul
+{display:none;}
+ul li a
+{
+display: block;
+color:white;
+padding:1em;
+white-space: nowrap;
+}
+ul li a:hover 
+{background: grey;}
+
+li:hover > ul
+{
+display: block;
+position: absolute;
+}
+
+li:hover li {float: none;}
+li:hover a {background: black;}
+li:hover li a:hover{background: grey;}
+.dropdown li ul li {border-top: 0;}
+ul ul ul
+{
+left: 100%;
+top: 0;
+}
+
+</style>
+</head>
+<body background="https://newevolutiondesigns.com/images/freebies/white-wallpaper-18.jpg">
+<ul class="dropdown">
+<li><a href="http://www.adgvit.com/">Home</a></li>
+<li><a href="https://timesofindia.indiatimes.com/defaultinterstitial.cms">News</a></li>
+<li><a href="#dropdown">Links</a>
+<ul>
+<li><a href="https://www.google.com">Google</a></li>
+<li><a href="https://www.yahoo.com">Yahoo</a></li>
+<li><a href="http://www.vit.ac.in">VIT Website</a>
+  <ul>
+   <li><a href="http://www.vit.ac.in/about">About</a></li>
+   <li><a href="http://www.vit.ac.in/academics">Academics</a></li>
+   <li><a href="http://www.vit.ac.in/admissions">Admission</a></li>
+   <li><a href="http://www.vit.ac.in/placement">Placement</a></li>
+  </ul>
+</li>
+</ul>
+</li>
+<li><a href="#">About Us</a></li>
+</ul>
+<br><br><br>
+<p> Home: Official ADG Website </p>
+<p> News: The Times Now Website </p>
+<p> Links: Will take you to different links </p>
+</body>
+</html>
