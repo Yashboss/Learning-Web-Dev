@@ -1,0 +1,97 @@
+<style>
+body {margin:0;}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px 100px 0px 400px;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-family:courier new;
+    font-size:25px;
+
+}
+
+#nav ul li a:hover:not(.active) {
+    font-size:40px;
+}
+#nav ul li:active {
+    /*background-color: #4CAF50;*/
+    /*background-color: green;*/
+    opacity:0.5;
+    border-radius:5px;
+    font-size:40px;
+}
+
+#home {
+    background-image: url(headimg.jpg);
+    /*background-position: right bottom, left top;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    text-align:center;
+    color:3019;
+    font-family:Bahnschrift Light;
+    color: white;
+}
+#service img{
+  border:2px solid black;
+}
+#service{
+  background-image: url(second.jpg);
+  /*background-position: right bottom, left top;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+}
+#service #img1{
+  color:inherit;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding:50px 0px 50px 0px;
+  width: 100%;
+  border: 3px solid black;
+  radius:10px;
+}
+#service #img2{
+  color:inherit;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding:50px 0px 50px 0px;
+  width: 100%;
+  border: 3px solid black;
+  radius:10px;
+}
+#topdonors{
+  background-image:url(back3.jpg);
+  /*background-color:#f2f2f2;*/
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:100%;
+}
+#topdonors img{
+  padding-left: 90px;
+  padding-right: 60px;
+  padding-top: 30px;
+  height: 300px;
+  width:300px;
+  border-radius: 400px;
+}
+</style>
