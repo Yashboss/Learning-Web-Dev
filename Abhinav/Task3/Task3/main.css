@@ -1,0 +1,350 @@
+body{
+    margin: 0px;
+}
+#header{
+    border: 2px solid black;
+    height: 680px;
+    background-image: url("Images/b3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 680px;
+    color: white;
+}
+ul#navbar{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 50px auto 0px auto;
+    padding: 10px;
+    width: 900px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#escape{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+li{
+    margin-right: 30px;
+    font-size: 18px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+}
+#h2{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#learn{
+    border: 2px solid white;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn{
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.sbox1{
+    width:550px;
+    padding: 0;
+    float: left;
+}
+.sbox2{
+    width:550px;
+    padding: 0;
+    float: right;
+}
+.a1{
+    width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+.a2{
+    background-color: #fafbff;
+}
+.a3{
+    width: 950px;
+    margin: 0 auto 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+.a4{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+.heading{
+    font-size: 60px;
+    margin: 0 0 30px;
+}
+.cheading{
+    text-align: center;
+    margin: 0px;
+}
+.web{
+    float: right;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+.wcontent{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.ccontent{
+    text-align: center;
+    margin: 0px;
+    font-size: 20px !important;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+}
+.identity{
+    float: left;
+    width: 300px;
+    margin: 0;
+}
+.halfbox1{
+    width: 425px;
+    float: left;
+}
+.halfbox2{
+    width: 425px;
+    float: right;
+}
+.sbox4{
+    float: right;
+    width: 300px;
+    padding: 10px;
+}
+.sbox3{
+    width: 425px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.i1{
+    float: left;
+    margin: 0px;
+    padding: 10px;
+}
+.sheading{
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+.scontent{
+    color: grey;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.sbox5{
+    margin-top: 50px;
+    padding: 40px;
+    background-color: white;
+    width: 510px;
+}
+.speech{
+    color: grey;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.by{
+    color: blue;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.man{
+    float: right;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+}
+.brands{
+    width: 965px;
+    margin: auto;
+}
+.sponsors{
+    padding: 10px;
+}
+#team{
+    background-color: black;
+    color: white;
+}
+.people{
+    width: 300px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+}
+.t{
+    width: 250px;
+    margin: 0px auto 15px auto;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.designation{
+    margin-top: 0;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+}
+.icons{
+    text-decoration: none;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dbox{
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+    color: grey;
+    font-size: 22px !important;
+    font-family: 'Raleway', sans-serif;
+}
+#contact{
+    background-color: #4a70a8;
+    color: white;
+}
+.halfbox3{
+    width: 500px;
+    overflow: hidden;
+    float: left;
+    padding: 10px;
+}
+.halfbox4{
+    width: 400px;
+    overflow: hidden;
+    float: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+.xsboxl{
+    width: 200px;
+    overflow: hidden;
+    float: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+.xsboxr{
+    width: 220px;
+    overflow: hidden;
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+}
+.fi1{
+    width: 25px;
+    float: left;
+    margin: 0px 0 0 8px;;
+}
+.fi3{
+    width: 25px;
+    float: left;
+    margin: 0px 0 0 0px;;
+}
+.fi5{
+    width: 25px;
+    float: left;
+    margin: 4px 0 0 0px;;
+}
+.xscontent{
+    float: right;
+    text-decoration: none !important;
+    font-size: 17px;
+    margin: 8px 0 0 0;
+    width: 150px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.fi2{
+    width: 33px;
+    float: left;
+    margin: 8px 0 0 0px;
+}
+.fi4{
+    width: 20px;
+    float: left;
+    margin: 2px 0 0 5px;
+}
+.fi6{
+    width: 20px;
+    float: left;
+    margin: 2px 0 0 0px;
+}
+.xscontent1{
+    float: right;
+    text-decoration: none !important;
+    font-size: 17px;
+    margin: 8px 0px 0 0px;
+    width: 170px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+.social{
+    width: 500px;
+    overflow: hidden;
+    padding: 0px;
+    margin-top: 10px;
+}
+.form{
+    display: block;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 370px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+#text{
+    margin-bottom: 0;
+}
+#iname{
+    margin-top: 25px;
+}
+footer{
+    width: 900px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    border-top: 1px solid white;
+    font-family: 'Ubuntu', sans-serif;
+}
+abbr{
+    font-family: 'Gloria Hallelujah', cursive;
+}
