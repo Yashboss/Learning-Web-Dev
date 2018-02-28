@@ -1,0 +1,654 @@
+<style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+body {
+    margin: 0;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.button {
+    background-color:cadetblue;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    .aa{
+        color:white;
+    text-align: center;
+    background-image: url("b1.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover; 
+      }
+    .a12{
+        margin-left:50%;
+        margin-top:40%;
+        margin-right:1%;
+        margin-bottom:30%;
+    }
+    .bb{
+        width:100%;
+        height:70%;
+        background-color:white;
+    }
+    .cc{
+        height:70%;
+        background-color: whitesmoke;
+    }
+    .dd{
+               background-color: white;
+    }
+    .ee{
+        margin-top: -1.5%;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+    .bbb{
+        color: whitesmoke;
+    }
+    .ff{
+        width:100%;
+        margin-top: -1.5%;
+        background-color: black;
+        color:white;
+        text-align:center;
+    
+    }
+    .f17{
+        color: black;
+    }
+    .ff2{
+        margin-left:38%;
+        margin-top:3%;
+        margin-right:40%;
+        margin-bottom:1%;
+        
+    }
+    .ff1{
+        
+        margin-left:27%;
+        margin-top:2%;
+        margin-right:30%;
+        margin-bottom:30%;
+    }
+    .a11{
+        
+        margin-top:15%;
+        margin-bottom:30%;
+    }
+  
+    .f1{
+        margin-left:19%;
+        margin-top:-25%;
+        margin-right:60%;
+        margin-bottom:30%;
+    }
+    
+    .f2{
+        margin-left:31%;
+        margin-top:-59%;
+        margin-right:30%;
+        margin-bottom:30%;
+    }
+    .f3{
+        margin-left:52%;
+        margin-top:-59%;
+        margin-right:10%;
+        margin-bottom:30%;
+    }
+    
+    }
+    .t1{
+        text-align: center;
+        font-size:25px;
+    }
+    .t2{
+        text-align: center;
+        font-size:25px;
+    }
+    .t3{
+        text-align: center;
+        font-size:25px;
+    }
+    .b1{
+        text-align: center
+    }
+    .b2{
+        text-align: center;
+    }
+    .n1{
+        color: black;
+    }
+    .naman{
+        margin-left:24%;
+        margin-top:-25%;
+        margin-right:23%;
+        margin-bottom:4%;
+    }
+    .dd1{
+        border-radius:30px;
+        margin-left:15%;
+        margin-top:6%;
+        margin-right:2%;
+        margin-bottom:2%;
+    }
+    .ddd1{
+        margin-left:23%;
+        margin-top:-8%;
+        margin-right:2%;
+        margin-bottom:2%;
+    }
+    .ddd2{
+        
+        margin-left:23%;
+        margin-top:-1%;
+        margin-right:52%;
+        margin-bottom:2%;
+    
+    }
+    .dd2{
+        margin-left:52%;
+        margin-top:-10%;
+        margin-right:2%;
+        margin-bottom:2%;
+    }
+    .d11{
+        margin-left:60%;
+        margin-top:-10%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d12{
+        margin-left:60%;
+        margin-top:-1%;
+        margin-right:15%;
+        margin-bottom:2%;
+    }
+    .dd3{
+        margin-left:15%;
+        margin-top:-1%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d31{
+        margin-left:23%;
+        margin-top:-8%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d32{
+        margin-left:23%;
+        margin-top:-1%;
+        margin-right:52%;
+        margin-bottom:2%;
+    }
+    .dd4{
+        margin-left:52%;
+        margin-top:-10%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d41{
+        margin-left:60%;
+        margin-top:-10%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d42{
+        margin-left:60%;
+        margin-top:-1%;
+        margin-right:15%;
+        margin-bottom:2%;
+    }
+    .dd5{
+        margin-left:15%;
+        margin-top:-1%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }.d51{
+        margin-left:23%;
+        margin-top:-8%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d52{
+        margin-left:23%;
+        margin-top:-1%;
+        margin-right:50%;
+        margin-bottom:2%;
+    }
+    .dd6{
+        margin-left:52%;
+        margin-top:-10%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d61{
+        margin-left:60%;
+        margin-top:-10%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .d62{
+        margin-left:60%;
+        margin-top:-1%;
+        margin-right:10%;
+        margin-bottom:2%;
+    }
+    .ee1{
+        border-radius:60%;
+        margin-left:-45%;
+        margin-top:1%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .e11{
+        margin-left:40%;
+        margin-top:-15%;
+        margin-right:15%;
+        margin-bottom:2%;
+    }
+    .e12{
+        color:steelblue;
+        margin-left:10%;
+        margin-top:2%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .ee2{
+        margin-left:70%;
+        margin-top:5%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .e21{
+        margin-left:18%;
+        margin-top:-15%;
+        margin-right:40%;
+        margin-bottom:2%;
+    }
+    .e22{
+        color:steelblue;
+        margin-left:-38%;
+        margin-top:0%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .e3{
+        margin-left:8%;
+        margin-top:10%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .c1{
+        margin-left:15%;
+        margin-top:5%;
+        margin-right:0%;
+        margin-bottom:4%;
+    }
+    .c11{
+        margin-left:42%;
+        margin-top:-20%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .c12{
+        margin-left:42%;
+        margin-top:0%;
+        margin-right:20%;
+        margin-bottom:2%;
+    }
+    .c13{
+        margin-left:42%;
+        margin-top:0%;
+        margin-right:25%;
+        margin-bottom:2%;
+    }
+    .b1{
+        margin-left:60%;
+        margin-top:4%;
+        margin-right:4%;
+        margin-bottom:2%;
+    }
+    .b11{
+        margin-left:20%;
+        margin-top:-21%;
+        margin-right:4%;
+        margin-bottom:2%;
+        
+    }
+    .b12{
+        margin-left:20%;
+        margin-top:0%;
+        margin-right:40%;
+        margin-bottom:2%;
+    }
+    .b13{
+        margin-left:20%;
+        margin-top:0%;
+        margin-right:40%;
+        margin-bottom:2%;
+    }
+    .gg{
+        margin-top: -1.5%;
+        height:80%;
+        background-color:royalblue;
+        color: white;
+        text-align: center;
+   }gg2{
+       color: royalblue;
+   }
+   .g11{
+    margin-left:-8%;
+        margin-top:0%;
+        margin-right:40%;
+        margin-bottom:2%;
+   }
+   .g12{
+    margin-left:-32%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g21{
+    margin-left:-18%;
+        margin-top:-3.5%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g22{
+    margin-left:-4%;
+        margin-top:-3.5%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g31{
+    margin-left:-43%;
+        margin-top:-1%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g32{
+    margin-left:-32%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g41{
+    margin-left:-18%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g42{
+    margin-left:-3%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g51{
+    margin-left:-43%;
+        margin-top:-1%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g52{
+    margin-left:-33%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g61{
+    margin-left:-18%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .g62{
+    margin-left:-2%;
+        margin-top:-4%;
+        margin-right:4%;
+        margin-bottom:2%;
+   }
+   .gg1{
+    margin-left:-20;
+        margin-top:3%;
+        margin-right:40%;
+        margin-bottom: 1%;
+   }
+   .gg2{
+       color: royalblue;
+   }
+   .gg3{
+       text-align: left;
+    margin-left:25%;
+        margin-top:2%;
+        margin-right:50%;
+        margin-bottom:2%;
+   }
+   .g71{
+        margin-left:57%;
+        margin-top:-24%;
+        margin-right:50%;
+        margin-bottom:2%;
+   }
+   .g72{
+    margin-left:57%;
+        margin-top:-21%;
+        margin-right:50%;
+        margin-bottom:2%;
+   }
+   .g73{
+       text-align: left;
+    margin-left:57%;
+        margin-top:-19%;
+        margin-right:50%;
+        margin-bottom:2%;
+   }
+  
+    
+</style>
+<html>
+    <title>Task3</title>
+<body>
+    <div class="aa">
+        <ul>
+            
+            <li><a href="home.asp">Contact</a></li>
+            <li><a href="services.asp">Team</a></li>
+            <li><a href="clients.asp">Clients</a></li>
+            <li><a href="team.asp">Services</a></li>
+            <li><a href="contact.asp">Home</a></li>
+            
+          </ul>
+          <div class="a11">
+        <h1 >Can you build the website of your dream?</h2>
+        <p >YUP, WE CAN DO IT</p>
+        <button class="button">Learn More</button>
+    </div>
+    </div>
+    <div class="bb">
+        <img class="b1" src="C:\Users\Naman Gupta\Desktop\Task 3\Untitled.png">
+        <h1 class="b11">Web <b>Development</b></h1>
+        <p class="b12">Proin iaculis purus consequat sem cure digni ssim.Donec porttitora entum suscipit aenean 
+        rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. 
+        Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+    </p>
+    <p class="b13">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean 
+    rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.
+    </p>
+    </div>
+    <div class="cc" >
+            <img class="c1" src="C:\Users\Naman Gupta\Desktop\Task 3\identity.png">
+
+        <h1 class="c11">Identity <b>Branding</b></h1>
+        <p class="c12">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean 
+            rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit. 
+        </p>
+        <p class="c13">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean 
+                rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.
+        </p>
+    </div>
+    <div class="dd">
+        <div class="d1">   
+        <img class="dd1" src="C:\Users\Naman Gupta\Desktop\Task 3\i1.png" >
+            <h1 class="ddd1"><b>Branding & Identity</b></h1>
+            <p class="ddd2">Proin iaculis purus consequat sem cure digni ssim.
+                 Donec porttitora entum suscipit aenean rhoncus posuere
+                  odio in tincidunt.</p>
+        </div>
+        <div class="d2">
+            <img class="dd2" src="C:\Users\Naman Gupta\Desktop\Task 3\i4.png">
+            <h1 class="d11"><b>Web & Graphic Design</b></h1>
+            <p class="d12">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+             entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+        </div>
+        <div class="d3">
+            <img class="dd3" src="C:\Users\Naman Gupta\Desktop\Task 3\i2.png">
+            <h1 class="d31"><b>Mobile App Development</b></h1>
+            <p class="d32">Proin iaculis purus consequat sem cure digni ssim. 
+                Donec porttitora entum suscipit aenean rhoncus posuere 
+                odio in tincidunt.</p>
+        </div>
+        <div class="d4">
+            <img class="dd4" src="C:\Users\Naman Gupta\Desktop\Task 3\i5.png">
+            <h1 class="d41"><b>Animations</b></h1>
+            <p class="d42">Proin iaculis purus consequat sem cure digni ssim.
+                Donec porttitora entum suscipit aenean rhoncus posuere 
+                odio in tincidunt.</p>
+        </div>
+        <div class="d5">
+            <img class="dd5" src="C:\Users\Naman Gupta\Desktop\Task 3\i3.png">
+            <h1 class="d51"><b>UI/UX</b></h1>
+            <p class="d52">Proin iaculis purus consequat sem cure digni ssim.
+                 Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+        </div>
+        <div class="d6">
+            <img class="dd6" src="C:\Users\Naman Gupta\Desktop\Task 3\i6.png">
+            <h1 class="d61"><b>Photography</b></h1>
+            <p class="d62">Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            </div>
+    </div>
+
+ <div class="ee">
+    <p class="bbb">bbb</p> 
+    <h1>Awesome <b>Clients</b></h1>
+     <p>See what nice thinks our clients said about us.</p>
+     <div class="e1">
+         <img class="ee1" src="C:\Users\Naman Gupta\Desktop\Task 3\c1.png">
+         <p class="e11">“ Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus. ”</p>
+            <p class="e12">- Jamie Richardson, Founder of Cocoa Media</p>    
+     </div>
+     <div class="e2">
+         <img class="ee2" src="C:\Users\Naman Gupta\Desktop\Task 3\c2.png">
+         <p class="e21">“ Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit aenean rhoncus. ”</p>
+         <p class="e22">- Bart Thompson, Founder of Rainel</p>
+
+     </div>
+     <img class="e3" src="C:\Users\Naman Gupta\Desktop\Task 3\brands.PNG">
+ </div>
+ <div class="ff">
+     <p class="f17">a</p>
+     <h1 class="ff2">Amazing <b>Team</b></h1>
+     <p class="ff1">These wonderful people make work enjoyable.</p>
+     
+     <div class="f1">
+        <div> 
+        <img src="C:\Users\Naman Gupta\Desktop\Task 3\t1.png">
+         
+         <h1 class="t1"><b>Kimberly Thomson</b></h1>
+         <p align=center>Marketer</p>
+         <img src="C:\Users\Naman Gupta\Desktop\Task 3\Untitled1.png">
+     </div>
+     </div>
+     <div class="f2">
+         <img src="C:\Users\Naman Gupta\Desktop\Task 3\t2.png">
+         <h1 class="t2"><b>Rico Massimo</b></h1>
+         <p>Coder</p>
+         <img src="C:\Users\Naman Gupta\Desktop\Task 3\Untitled1.png">
+     </div>
+     <div class="f3">
+         <img src="C:\Users\Naman Gupta\Desktop\Task 3\t3.png">
+         <h1 class="t3"><b>Uku Mason</b></h1>
+         <p>Graphic Designer</p>
+         <img src="C:\Users\Naman Gupta\Desktop\Task 3\Untitled1.png">
+     </div>
+     <p class="naman">Proin iaculis purus consequat sem cure digni ssim donec porttitora 
+        entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+        <p class="n1">ff</p>
+ </div>
+<div class="gg">
+    <p class="gg2">A</p>
+    <h1 class="gg1">Say<b>Hello</b></h1>
+    <p class="gg3">Don't be shy drop us an email and say hello! We are really nice bunch of people</p>
+    <div class="g1">
+        <img class="g11" src="C:\Users\Naman Gupta\Desktop\Task 3\fi1.PNG">
+        <p class="g12">(416)555-0000</p>
+    </div>
+    <div class="g2">
+            <img class="g21" src="C:\Users\Naman Gupta\Desktop\Task 3\fi2.PNG">
+            <p class="g22">hello@escape.com</p>
+    </div>
+    <div class="g3">
+            <img class="g31"src="C:\Users\Naman Gupta\Desktop\Task 3\fi3.PNG">
+            <p class="g32">@escpae.com</p>
+        </div>
+    <div class="g4">
+            <img class="g41"src="C:\Users\Naman Gupta\Desktop\Task 3\fi4.PNG">
+            <p class="g42">facebook.com/escape</p>
+    </div>
+    <div class="g5">
+            <img class="g51"src="C:\Users\Naman Gupta\Desktop\Task 3\fi5.PNG">
+                    <p class="g52">plus.com</p>
+    </div>
+    <div class="g1">
+            <img class="g61"src="C:\Users\Naman Gupta\Desktop\Task 3\fi6.PNG">
+                    <p class="g62">pininterest.com/escape</p>
+    </div>       
+    <form action="/action_page.php">
+         <input class="g71" type="text" name="name" value="Your name*" size="35" height="48"><br>
+         <input class="g72" type="text" name="email" value="Your email*" size="35" height="48"><br>
+        
+        </form>
+        <textarea class="g73" rows="12" cols="37">
+Your Message*
+    </textarea>
+    <hr width="50%">
+<p class="g74">© 2014 Escape by FreebiesXpress * Made In Toronto</p>                 
+</div>
+</body>
+</html>
