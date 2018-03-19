@@ -115,7 +115,8 @@ li a:hover:not(.active) {
     font-family: 'Actor';
 }
 p{
-    font-family: 'Adamina','Verdana, Geneva, Tahoma, sans-serif';
+    
+    font-family:'Alegreya Sans SC';
     font-size:15px;
     color:rgb(68, 67, 67);
 }
